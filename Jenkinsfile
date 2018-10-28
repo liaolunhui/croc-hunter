@@ -185,6 +185,8 @@ volumes:[
               name          : config.app.name
             )
           }
+            
+            sh "sleep 60"
         }
       }
     }
