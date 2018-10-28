@@ -8,10 +8,10 @@
     "hostname": "croc-hunter.k8s.hhappkf.com"
   },
   "container_repo": {
-    "host": "quay.io",
-    "master_acct": "liaolunhui",
-    "alt_acct": "liaolunhui",
-    "jenkins_creds_id": "quay_creds",
+    "host": "repo.k8s.hhappkf.com:8080",
+    "master_acct": "admin",
+    "alt_acct": "admin",
+    "jenkins_creds_id": "nexus3_creds",
     "repo": "croc-hunter",
     "dockeremail": ".",
     "dockerfile": "./",
